@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +31,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/e382ab5e27.js" crossorigin="anonymous"></script>
+
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="./fotos/martelefavicom.ico">
+    <meta name="description"
+        content="Conoce nuestros productos 100% artesanales · Echo a mano · Mates, Bombillas y mas!!! · tu combo matero lo encontras aca!!! ">
+    <meta name="keywords" content="mate, bombilla, exclusivos, yerba, set matero, azucarera, yerbera, mate de alpaca, bombilla de alpaca,
+    bombilla de bronce, bombillon labrado, bombillon liso, bombillon bronce, pico loro labrada, pico loro lisa, pico loro, bombillon,
+    equipo de mate, termo, alpaca, mate imperial, imperial labrado, camionero, imperial de madera">
+
 </head>
 
 <body>
@@ -58,10 +71,12 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Productos</a>
-                    </li>
-                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Productos</a>
+                        </li>
                 </ul>
                 <div class="boton-centrado-desktop">
                     <div class="buscar">
@@ -72,27 +87,105 @@
                         
                     </div>
                     <div class="buscar">
-                        <button class="carrito" type="submit"><i id="carritoCompras" class="icon ion-md-cart"> </i><span id="cantidadCarrito" class="cantidad-carrito"></span></button>
+                        <button class="carrito" type="submit"><i class="icon ion-md-cart"></i></button>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
+
     <section id="foto-bienvenido-home">
         <div class="container">
             <div class="texto topmargin-lg">
                 <h1>"En las manos del artesano está el alma y la escencia de lo simple y lo bello"</h1>
-                
+                <a href="#about" class="btn btn-light topmargin-sm">Quienes somos <i
+                        class="icon ion-md-play-circle"></i> </a>
             </div>
         </div>
     </section>
 
+    <section id="portfolio">
+        <div class="container-fluid">
+            <div class="contenido-centrado">
+                <h2>Trabajando para crear los <b>mejores productos</b></h2>
+                <p>Nuestros productos se caracterizan por estar echos a mano</p>
+            </div>
+        </div>
+    </section>
 
-    <div id="allProductos" class="all-Products">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="caja-container">
+                    <div class="caja-detalles">
+                        <a href="products.html">
+                            <div class="text-color">
+                                <h2>MATES</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <img class="img-fluid" src="./fotos/mate-home.jpg" alt="mate">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="caja-container">
+                    <div class="caja-detalles">
+                        <a href="products.html">
+                            <div class="text-color">
+                                <h2>BOMBILLAS</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <img class="img-fluid" src="./fotos/bombillon.png" alt="bombillas">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="caja-container">
+                    <div class="caja-detalles">
+                        <a href="products.html">
+                            <div class="text-color">
+                                <h2>YERBAS</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <img class="img-fluid" src="./fotos/yerba-box.jpg" alt="yerba">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="caja-container">
+                    <div class="caja-detalles">
+                        <a href="products.html">
+                            <div class="text-color">
+                                <h2>SET MATERO</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <img class="img-fluid" src="./fotos/setmatero.png" alt="setmatero">
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="modal-Container" class="modal-Container">
+    <section id="about">
+        <h2>Quienes somos?</h2>
+        <div class="video">
+            <div class="contenedor-video">
+                <iframe width="1600" height="700" src="https://www.youtube.com/embed/XYHfs9tsmFM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-boton-wsp">
+        <a href="https://wa.me/3412723967?text=Quiero%20consultar%20sobre%20sus%20productos" target="_blank">
+            <img class="boton-wsp" src="fotos/wsp.png" alt="">
+        </a>
     </div>
 
     <footer>
@@ -129,8 +222,8 @@
                 <b>MarteleArtesanias</b></p>
         </div>
     </footer>
-    <script defer src="./js/stock.js"></script>
-    <script defer src="./js/script.js"></script>
-    <script defer src="./js/carrito.js"></script>
 </body>
+
+
+
 </html>
